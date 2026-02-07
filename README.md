@@ -128,8 +128,8 @@ document.addEventListener("click", function(e) {
 });
 
 // ⏳ COUNTDOWN TIMER
-// 👉 CHANGE THIS DATE (2026-02-07T00:00:00)
-const targetDate = new Date("2026-02-14T00:00:00").getTime();
+// 👉 CHANGE THIS DATE (YYYY-MM-DDT00:00:00)
+const targetDate = new Date("2026-02-07T00:00:00").getTime();
 const countdownEl = document.getElementById("countdown");
 const letter = document.getElementById("loveLetter");
 
